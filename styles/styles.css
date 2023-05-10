@@ -3,25 +3,12 @@
     box-sizing: border-box;
 }
 
-.zoom {
-    padding: 50px;
-    background-color: rgb(255, 255, 255);
-    transition: transform .2s;
-    /* Animation */
-    margin: 0 auto;
-}
-
-.zoom:hover {
-    transform: scale(1.03);
-    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
 
 body {
-    font-size: 1.25rem;
+    font-size: 1.01rem;
     font-family: sans-serif;
     line-height: 150%;
     text-shadow: 0 2px 2px #697982;
-    
 }
 
 section {
@@ -72,10 +59,11 @@ h1 {
 
 fieldset {
     border: 1px solid black;
-    padding: 10px;
-    height: 89vh;
+    padding: 25px;
+    height: 85vh;
     overflow: auto;
-    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border: 3px solid black;
 }
 
 legend {
@@ -84,7 +72,8 @@ legend {
 }
 
 div {
-    text-align: justify;
-    text-justify: inter-word;
-    padding: 10px;
+    padding: 5px;
+}
+strong {
+    font-size: 1.70rem;
 }
