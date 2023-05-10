@@ -58,6 +58,7 @@ function card(img_path,link , title, desc) {
     const img = document.createElement('img');
     img.className = 'image';
     img.src = img_path;
+    img.style = 'vertical-align:middle; padding: 10px';
 
     // Add the card title and description to the <p> element for the card details
     var cardDetails = document.createElement('p');
@@ -67,15 +68,16 @@ function card(img_path,link , title, desc) {
     const cardTitle = document.createElement('strong');
     cardTitle.id = 'card-title';
     cardTitle.innerHTML = title;
+   
 
     const description_c = document.createElement('div');
     description_c.innerHTML = desc;
 
-
+    cardDetails.appendChild(img);
     cardDetails.appendChild(cardTitle);
     cardDetails.appendChild(description_c);
     // Add the <img> and card details to the <div> element
-    div.appendChild(img);
+    
     div.appendChild(cardDetails);
 
     // Add the <div> element to the <a> element
