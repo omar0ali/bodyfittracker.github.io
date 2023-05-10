@@ -60,6 +60,11 @@ function card(img_path,link , title, desc) {
     img.src = img_path;
     img.style = 'vertical-align:middle; padding: 10px';
 
+    //this help to remove empty image box if it was not available at the moment.
+    img.onerror = function(e) {
+        this.parentNode.removeChild(this);
+    }
+
     // Add the card title and description to the <p> element for the card details
     var cardDetails = document.createElement('p');
     cardDetails.className = 'cen';
