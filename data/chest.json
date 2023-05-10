@@ -28,7 +28,7 @@
             "title": "Dumbbell Press",
             "link":"dumbbell_press",
             "description": "Dumbbell press is an exercise that targets the chest muscles, as well as the shoulders and triceps. Unlike the traditional barbell bench press, dumbbell press is performed with dumbbells, which allows for a greater range of motion and can help to improve muscular imbalances.",
-            "image": "/imgs/bench-4.jpeg"
+            "image": "./imgs/bench-4.jpeg"
         },
         {
             "title": "Dumbbell Press (Incline)",
