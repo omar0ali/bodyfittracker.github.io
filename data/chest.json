@@ -4,25 +4,25 @@
             "title": "Chest Msucle",
             "link":"chest",
             "description": "The chest muscles, also known as the pectoral muscles, are a group of muscles located in the chest area. They are responsible for several movements of the arm and shoulder, including flexion, adduction, and rotation.",
-            "image": "/imgs/chest.png"
+            "image": "./imgs/chest.png"
         },
         {
             "title": "Bench Press",
             "link":"bench_press",
             "description": "Bench press is a popular strength-training exercise that primarily targets the chest muscles, but also works the shoulders and triceps. The exercise is performed lying on a bench with a weighted barbell held above the chest, then lowering the bar down towards the chest and pressing it back up to the starting position.",
-            "image": "/imgs/bench-1.jpeg"
+            "image": "./imgs/bench-1.jpeg"
         },
         {
             "title": "Bench Press (Incline)",
             "link":"bench_press_in",
             "description": "Incline bench press is a variation of the traditional bench press exercise that targets the upper portion of the chest muscles. Instead of lying flat on a bench, you would adjust the bench to an incline position, typically between 30 and 45 degrees.",
-            "image": "/imgs/bench-2.jpeg"
+            "image": "./imgs/bench-2.jpeg"
         },
         {
             "title": "Bench Press (Decline)",
             "link":"bench_press_de",
             "description": "Decline bench press is another variation of the traditional bench press exercise that targets the lower portion of the chest muscles. In this exercise, the bench is set at a decline angle, typically between 15 and 30 degrees, with the head lower than the feet.",
-            "image": "/imgs/bench-3.jpeg"
+            "image": "./imgs/bench-3.jpeg"
         },
         {
             "title": "Dumbbell Press",
@@ -34,13 +34,13 @@
             "title": "Dumbbell Press (Incline)",
             "link":"dumbbell_press_in",
             "description": "Incline dumbbell press is a variation of the traditional bench press exercise that targets the upper portion of the chest muscles. Instead of lying flat on a bench, you would adjust the bench to an incline position, typically between 30 and 45 degrees.",
-            "image": "/imgs/bench-5.jpeg"
+            "image": "./imgs/bench-5.jpeg"
         },
         {
             "title": "Dumbbell Press (Decline)",
             "link":"dumbbell_press_de",
             "description": "Decline dumbbell press is another variation of the traditional bench press exercise that targets the lower portion of the chest muscles. In this exercise, the bench is set at a decline angle, typically between 15 and 30 degrees, with the head lower than the feet.",
-            "image": "/imgs/bench-6.jpeg"
+            "image": "./imgs/bench-6.jpeg"
         }
     ]
 }

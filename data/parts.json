@@ -4,19 +4,19 @@
             "title": "Head",
             "link":"head",
             "description": "The head is composed of several muscles that control movements of the face, jaw, and neck. The main muscles of the head include the temporalis, masseter, and medial and lateral pterygoid muscles, which are responsible for chewing and moving the jaw. The frontalis and occipitalis muscles are responsible for raising and lowering the eyebrows, and the platysma muscle is responsible for neck movements. Proper form and technique should be used when exercising the head muscles to prevent injury.",
-            "image": "/imgs/head.png"
+            "image": "./imgs/head.png"
         },
         {
             "title": "Shoulder",
             "link":"shoulder",
             "description": "The shoulders are a group of muscles responsible for arm and shoulder movements. The deltoids are the largest and most visible muscles with three heads, the rotator cuff muscles stabilize the shoulder joint and help to rotate the arm, and the trapezius muscle is responsible for shoulder blade movements. Exercises such as overhead press, lateral raises, and front raises can be performed to develop and strengthen the shoulder muscles. Proper form and technique are important, and it's recommended to start with lighter weights and gradually increase weight as strength improves.",
-            "image": "/imgs/shoulder.png"
+            "image": "./imgs/shoulder.png"
         },
         {
             "title": "Chest",
             "link":"chest",
             "description": "The chest muscles, also known as the pectoral muscles, are a group of muscles located in the chest area. They are responsible for several movements of the arm and shoulder, including flexion, adduction, and rotation.",
-            "image": "/imgs/chest.png"
+            "image": "./imgs/chest.png"
         }
     ]
 }
