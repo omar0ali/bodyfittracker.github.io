@@ -1,0 +1,90 @@
+/* Pen-specific styles */
+* {
+    box-sizing: border-box;
+}
+
+.zoom {
+    padding: 50px;
+    background-color: rgb(255, 255, 255);
+    transition: transform .2s;
+    /* Animation */
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.03);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+body {
+    font-size: 1.25rem;
+    font-family: sans-serif;
+    line-height: 150%;
+    text-shadow: 0 2px 2px #697982;
+    
+}
+
+section {
+    color: #000000;
+    text-align: center;
+}
+
+div {
+    height: 98%;
+}
+
+article {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 20px;
+    
+}
+
+h1 {
+    font-size: 1.75rem;
+    margin: 0 0 0.75rem 0;
+}
+
+
+/* Pattern styles */
+.container {
+
+    width: 100%;
+}
+
+.left-half {
+    background-color: #ffffff;
+    position: absolute;
+    left: 0px;
+    width: 50%;
+  
+}
+
+.right-half {
+    background-color: #ffffff;
+    position: absolute;
+    right: 0px;
+    width: 50%;
+}
+
+fieldset {
+    border: 1px solid black;
+    padding: 10px;
+    height: 89vh;
+    overflow: auto;
+    
+}
+
+legend {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+div {
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 10px;
+}

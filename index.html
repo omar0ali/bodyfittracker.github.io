@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Muscle Track</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script type="text/javascript" src="scripts/script.js"></script>
+</head>
+
+<body>
+    <section class="container">
+        <style>
+            .card {
+                display: flex;
+                align-items: center;
+                border: 1px solid #ccc;
+                padding: 10px;
+                height: 80px;
+                margin-bottom: 10px;
+                transition: transform .2s;
+                cursor: pointer;
+            }
+
+            .image {
+                width: 100px;
+                height: 100px;
+                margin-right: 10px;
+                flex-shrink: 0;
+            }
+
+            .cen {
+                text-align: left;
+            }
+
+            .card:hover {
+                transform: scale(1.01);
+                /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+            }
+
+            a {
+                text-decoration: none;
+            }
+        </style>
+        <div class="left-half">
+            <article>
+                <fieldset id="parts">
+                    <legend>Body parts</legend>
+                </fieldset>
+            </article>
+        </div>
+        <div class="right-half">
+            <article>
+                <fieldset id="details">
+                    <legend>Details</legend>
+                </fieldset>
+            </article>
+        </div>
+    </section>
+</body>
+</html>
