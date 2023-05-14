@@ -13,7 +13,7 @@ function getDetailsOf(details) {
             legend.innerHTML = "Details";
             fieldset.appendChild(legend);
             data.items.forEach(function (item) {
-                fieldset.appendChild(card(item.image, item.link, item.title, item.description));
+                fieldset.appendChild(card(item));
             });
         })
         .catch(error => console.error(error));
@@ -26,7 +26,7 @@ function getParts() {
         fieldset.removeChild(fieldset.firstChild);
     }
     const legend = document.createElement('legend');
-    legend.innerHTML = "Body Parts";
+    legend.innerHTML = "Anatomy";
     fieldset.appendChild(legend);
     fetch('data/parts.json')
         .then(response => response.json())
@@ -34,30 +34,33 @@ function getParts() {
             // access the items array
             const items = data.items;
             data.items.forEach(function (item) {
-                fieldset.appendChild(card(item.image, item.link, item.title, item.description));
+                fieldset.appendChild(card(item));
             });
         })
         .catch(error => console.error(error));
 }
-function card(img_path,link , title, desc) {
+function card(item) {
     // Create the <a> element
     const a = document.createElement('a');
     a.href = '#';
-    a.style = '';
+    a.style = 'text-decoration:none;';
     a.onclick = function () {
-        getDetailsOf(link);
+        getDetailsOf(item.link);
     }
 
     // Create the <div> element
     const div = document.createElement('div');
     div.className = 'card';
+    if(item.color){
+        div.style="border: 1px solid #" + item.color + ";";
+    }
     div.style.height = 'auto';
-    //div.href = '/imgs/bench-1.jpg';
+    
 
     // Create the <img> element
     const img = document.createElement('img');
     img.className = 'image';
-    img.src = img_path;
+    img.src = item.image;
     img.style = 'vertical-align:middle; padding: 10px';
 
     //this help to remove empty image box if it was not available at the moment.
@@ -72,11 +75,15 @@ function card(img_path,link , title, desc) {
     // Create the <p> element for the card title
     const cardTitle = document.createElement('strong');
     cardTitle.id = 'card-title';
-    cardTitle.innerHTML = title;
+    cardTitle.innerHTML = item.title;
+    if(item.color) {
+        cardTitle.style = "color: #"+item.color+";";
+    }
+   
    
 
     const description_c = document.createElement('div');
-    description_c.innerHTML = desc;
+    description_c.innerHTML = item.description;
 
     cardDetails.appendChild(img);
     cardDetails.appendChild(cardTitle);

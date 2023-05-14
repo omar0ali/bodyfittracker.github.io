@@ -1,6 +1,12 @@
 {
     "items": [
         {
+            "title": "Body",
+            "link":"body",
+            "description": "The human body has over 600 muscles, and it's important to focus on all major muscle groups through a combination of strength training, cardiovascular exercise, and proper nutrition to achieve a balanced and healthy physique. This involves exercises like bench press, squats, and running, and a diet rich in protein, carbohydrates, and healthy fats. A personalized workout and nutrition plan developed with the help of a qualified fitness professional can help you reach your goals.",
+            "image": "./imgs/body.png"
+        },
+        {
             "title": "Head",
             "link":"head",
             "description": "The head is composed of several muscles that control movements of the face, jaw, and neck. The main muscles of the head include the temporalis, masseter, and medial and lateral pterygoid muscles, which are responsible for chewing and moving the jaw. The frontalis and occipitalis muscles are responsible for raising and lowering the eyebrows, and the platysma muscle is responsible for neck movements. Proper form and technique should be used when exercising the head muscles to prevent injury.",
@@ -17,6 +23,13 @@
             "link":"chest",
             "description": "The chest muscles, also known as the pectoral muscles, are a group of muscles located in the chest area. They are responsible for several movements of the arm and shoulder, including flexion, adduction, and rotation.",
             "image": "./imgs/chest.png"
+        },
+        {
+            "title": "About",
+            "link":"about",
+            "description": "This website is your ultimate guide to understanding your body and the muscles that make it move. it provide comprehensive information on all the major muscle groups, as well as detailed guides on gym machines and exercises that correspond to each muscle group. Whether you're a beginner or a seasoned fitness enthusiast, the website has everything you need to know to achieve your fitness goals. Our user-friendly interface and in-depth information make it easy for you to navigate and find what you need.",
+            "image": "",
+            "color": "90a7fc"
         }
     ]
 }

@@ -1,0 +1,90 @@
+{
+    "items": [
+        {
+            "title": "Facts",
+            "link":"",
+            "description": "Here are some interesting facts about the human body. Understanding how muscles work and how to care for them is important for overall health and fitness.",
+            "image": "",
+            "color": "449e5c"
+        },{
+            "title": "Fact 1",
+            "link":"",
+            "description": "The human body is made up of about 60% water.",
+            "image": ""
+        },{
+            "title": "Fact 2",
+            "link":"",
+            "description": "The average human heart beats about 100,000 times per day.",
+            "image": ""
+        },{
+            "title": "Fact 4",
+            "link":"",
+            "description": "The human eye can distinguish about 10 million different colors.",
+            "image": ""
+        },{
+            "title": "Fact 5",
+            "link":"",
+            "description": "The strongest muscle in the human body is the masseter, or jaw muscle.",
+            "image": ""
+        }
+        ,{
+            "title": "Fact 6",
+            "link":"",
+            "description": "The largest organ in the human body is the skin.",
+            "image": ""
+        }
+        ,{
+            "title": "Fact 7",
+            "link":"",
+            "description": "The human brain contains about 100 billion neurons.",
+            "image": ""
+        }
+        ,{
+            "title": "Fact 8",
+            "link":"",
+            "description": "The human body produces about 25 million new cells every second.",
+            "image": ""
+        },{
+            "title": "Fact 9",
+            "link":"",
+            "description": "The human skeleton is made up of 206 bones.",
+            "image": ""
+        }
+        ,{
+            "title": "Fact 10",
+            "link":"",
+            "description": "Muscles make up about 40% of the body's weight.",
+            "image": ""
+        },{
+            "title": "Fact 11",
+            "link":"",
+            "description": "There are three types of muscle: skeletal, smooth, and cardiac. Skeletal muscle is attached to bones and is responsible for voluntary movements. Smooth muscle is found in internal organs such as the stomach and intestines, and is responsible for involuntary movements. Cardiac muscle is found in the heart and is responsible for pumping blood throughout the body.",
+            "image": ""
+        },{
+            "title": "Fact 12",
+            "link":"",
+            "description": "Muscles work in pairs - when one muscle contracts, the other relaxes.",
+            "image": ""
+        },{
+            "title": "Fact 13",
+            "link":"",
+            "description": "Muscle fibers are made up of myofibrils, which are composed of two types of protein filaments: actin and myosin. When a muscle contracts, these filaments slide over each other, shortening the muscle fiber and causing the muscle to contract.",
+            "image": ""
+        },{
+            "title": "Fact 14",
+            "link":"",
+            "description": "Muscles can atrophy, or shrink in size, if they are not used regularly.",
+            "image": ""
+        },{
+            "title": "Fact 15",
+            "link":"",
+            "description": "The gluteus maximus, or buttock muscles, are the largest muscles in the human body.",
+            "image": ""
+        },{
+            "title": "Fact 16",
+            "link":"",
+            "description": "Regular stretching can help improve muscle flexibility and reduce the risk of injury.",
+            "image": ""
+        }
+    ]
+}
