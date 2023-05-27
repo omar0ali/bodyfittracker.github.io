@@ -62,6 +62,7 @@ strong {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     background-color: white;
 }
+
 #btnBack {
     font-size: 20px;
     margin-top: 25px;
@@ -70,4 +71,18 @@ strong {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     background-color: white;
+}
+
+
+/*------ small screen edit ------- */
+@media only screen and (max-width: 600px) {
+    fieldset {
+        border: 1px solid black;
+        padding: 25px;
+        height: 50vh;
+        overflow: auto;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        border: 3px solid black;
+        border-radius: 10px;
+    }
 }
