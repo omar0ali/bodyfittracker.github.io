@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="styles/styles.css">
     <script type="text/javascript" src="scripts/script.js"></script>
 </head>
+<header>
+    <h1 style="text-align: center; padding: 10px;">
+        Bodyfittracker.github.io
+    </h1>
+</header>
 
 <body>
     <section class="container">
@@ -15,13 +20,13 @@
                 display: flex;
                 align-items: center;
                 border: 1px solid #ccc;
-                padding: 10px;
-                height: 80px;
-                margin-bottom: 10px;
+                padding: 15px;
+                margin: 15px;
                 transition: transform .2s;
                 cursor: pointer;
                 box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
                 text-shadow: 0 1px 4px #697982;
+                border-radius: 10px;
             }
 
             .image {
@@ -40,19 +45,12 @@
                 /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
             }
         </style>
-        <div class="left-half">
-            <article>
-                <fieldset id="parts">
-                    <legend>Anatomy</legend>
-                </fieldset>
-            </article>
-        </div>
-        <div class="right-half">
-            <article>
-                <fieldset id="details">
-                    <legend>Details</legend>
-                </fieldset>
-            </article>
+        <div class="main">
+            <fieldset id="start">
+            </fieldset>
+            <!-- Will need to implement a stack to add back button -->
+            <!--input id="btnBack" onclick="goBack()" type="button" value="Go Back"-->
+            <input id="btnHome" onclick="getDetailsOf('parts')" type="button" value="Home">
         </div>
     </section>
 </body>

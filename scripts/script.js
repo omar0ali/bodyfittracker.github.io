@@ -1,17 +1,14 @@
 window.addEventListener('load', function () {
-    getParts();
+    getDetailsOf("parts");
 });
 function getDetailsOf(details) {
-    var fieldset = document.getElementById("details");
+    var fieldset = document.getElementById("start");
     fetch('data/'+details+'.json')
         .then(response => response.json())
         .then(data => {
             while (fieldset.firstChild) {
                 fieldset.removeChild(fieldset.firstChild);
             }
-            const legend = document.createElement('legend');
-            legend.innerHTML = "Details";
-            fieldset.appendChild(legend);
             data.items.forEach(function (item) {
                 fieldset.appendChild(card(item));
             });
@@ -19,25 +16,6 @@ function getDetailsOf(details) {
         .catch(error => console.error(error));
 
 
-}
-function getParts() {
-    var fieldset = document.getElementById("parts");
-    while (fieldset.firstChild) {
-        fieldset.removeChild(fieldset.firstChild);
-    }
-    const legend = document.createElement('legend');
-    legend.innerHTML = "Anatomy";
-    fieldset.appendChild(legend);
-    fetch('data/parts.json')
-        .then(response => response.json())
-        .then(data => {
-            // access the items array
-            const items = data.items;
-            data.items.forEach(function (item) {
-                fieldset.appendChild(card(item));
-            });
-        })
-        .catch(error => console.error(error));
 }
 function card(item) {
     // Create the <a> element
@@ -79,7 +57,6 @@ function card(item) {
     if(item.color) {
         cardTitle.style = "color: #"+item.color+";";
     }
-   
    
 
     const description_c = document.createElement('div');

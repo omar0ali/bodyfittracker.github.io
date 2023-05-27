@@ -8,26 +8,12 @@ body {
     font-size: 1.01rem;
     font-family: sans-serif;
     line-height: 150%;
-    text-shadow: 0 2px 2px #697982;
+    text-shadow: 0 2px 2px #343b3f;
 }
 
 section {
     color: #000000;
     text-align: center;
-}
-
-div {
-    height: 98%;
-}
-
-article {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    padding: 20px;
-    
 }
 
 h1 {
@@ -38,32 +24,24 @@ h1 {
 
 /* Pattern styles */
 .container {
-
     width: 100%;
 }
 
-.left-half {
+.main {
+    padding: 10px;
     background-color: #ffffff;
-    position: absolute;
-    left: 0px;
-    width: 50%;
-  
+    width: 100%;
 }
 
-.right-half {
-    background-color: #ffffff;
-    position: absolute;
-    right: 0px;
-    width: 50%;
-}
 
 fieldset {
     border: 1px solid black;
     padding: 25px;
-    height: 80vh;
+    height: 75vh;
     overflow: auto;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     border: 3px solid black;
+    border-radius: 10px;
 }
 
 legend {
@@ -71,9 +49,25 @@ legend {
     font-size: 1.2em;
 }
 
-div {
-    padding: 5px;
-}
 strong {
     font-size: 1.70rem;
+}
+
+#btnHome {
+    font-size: 20px;
+    margin-top: 25px;
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-color: white;
+}
+#btnBack {
+    font-size: 20px;
+    margin-top: 25px;
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-color: white;
 }
